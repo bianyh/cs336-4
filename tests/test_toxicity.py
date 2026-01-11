@@ -52,6 +52,6 @@ def test_classify_toxic_speech():
     )
     # TODO: you may have to change this check below, depending on what your
     # hate-speech classifier system returns.
-    assert prediction == "non-toxic"
+    assert prediction == "toxic"
     assert isinstance(score, float)
     assert score > 0
